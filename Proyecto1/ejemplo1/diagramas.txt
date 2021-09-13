@@ -1,0 +1,18 @@
+
+
+CH3CH2CHCH2CHCH3
+      |    |
+      CH3  CH3
+
+      CH2CH3
+      |
+CH3CH2CCH2CH2CHCH3
+      |      |
+      CH3    CH3
+
+      CH2CH3   CH3
+      |        |
+CH2CH2CCH2CH2CHCHCH2CH2CH3
+      |      |
+      CH2CH3 CH2CH3
+

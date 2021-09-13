@@ -1,0 +1,3 @@
+2,4-dimetilhexano
+5-etil-2,5-dimetilheptano
+3,3,6-trietil-7-metildecano
