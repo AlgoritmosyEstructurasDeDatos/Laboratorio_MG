@@ -20,3 +20,5 @@ CH3CH2CCH2CH2CHCH3
       |      |
       CH3    CH3
 ```
+
+Por lo tanto, **debe reemplazar el archivo "alcanos.txt" que se encuentra en su repositorio privado, por el ubicado en esta carpeta**.
