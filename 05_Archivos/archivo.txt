@@ -1,0 +1,5 @@
+esto es una linea de texto
+esta linea esta luego de un salto de linea
+soy una nueva linea
+soy de lectura secuencial
+entonces, para llegar aca, debes haber pasado por las lineas anteriores
