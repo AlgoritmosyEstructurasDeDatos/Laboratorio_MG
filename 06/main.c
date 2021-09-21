@@ -6,19 +6,19 @@
 
 int main(void) {
 	char nombre[200];
-  int vertices, vert1, vert2;
-  printf("Ingrese el nombre del archivo a leer\n");
-  //scanf("%s", nombre);
-  strcpy(nombre,"grafo_entrada.txt");
+ 	int vertices, vert1, vert2;
+  	printf("Ingrese el nombre del archivo a leer\n");
+  	//scanf("%s", nombre);
+  	strcpy(nombre,"grafo_entrada.txt");
 	FILE *fp;
-  fp = fopen(nombre, "r");
-  fscanf(fp, "%d", &vertices);
+  	fp = fopen(nombre, "r");
+  	fscanf(fp, "%d", &vertices);
   
 	// cre un grafo (sin aristas) con vertices como numero de vertices 
 	Grafo* graf = Crear_Grafo(vertices);
 
 	// leo el archivo leyendo cada una de las aristas
-  while (fscanf(fp, "%i %i", &vert1, &vert2 ) == 2){
+  	while (fscanf(fp, "%i %i", &vert1, &vert2 ) == 2){
 		Insertar_Arista(graf,vert1,vert2);
 	}
 	
@@ -27,7 +27,7 @@ int main(void) {
 	
 	
 	/*
-  // probemos la lista
+  	// probemos la lista
 	Lista *L = Crear_Lista();
 	Insertar_Al_Final(L, 1);
 	Insertar_Al_Final(L, 2);
