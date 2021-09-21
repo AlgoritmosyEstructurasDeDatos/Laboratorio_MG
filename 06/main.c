@@ -2,7 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include "grafo.h"
-//#include "lista.h"
 
 int main(void) {
 	char nombre[200];
