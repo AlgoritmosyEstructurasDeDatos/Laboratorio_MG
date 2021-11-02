@@ -9,3 +9,7 @@
 - Construya un algoritmo que, dado un arbol Binario T, verifique si T es un ABO.
 
 - Construya un algoritmo para calcular la altura de un árbol binario T.
+
+- Construya un algoritmo que busque un valor en  árbol binario, y si ese valor existe y su puntero está vacio, inserte un valor. Si el nodo no está vacio o el valor no existe, no haga nada. 
+
+ 
