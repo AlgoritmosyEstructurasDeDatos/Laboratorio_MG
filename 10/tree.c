@@ -113,16 +113,16 @@ int BuscarInterno(Nodo* n){
 
 // ejercicio 3
 // Hacer BFS que recorra por niveles.
-// tambien puede hacerlo con 
+// tambien puede hacerlo recorriendo recursivamente el árbol y guardando un contador en un arrego, cuyo índice sea el nivel del árbol.
 
 // ejercicio 5
 int nivel = 0;
 int altura = 0;
 int mostrarAltura(Nodo* n){
 	nivel++;
-  printf("nodo %d - Nivel %d\n", n->info, nivel);
-  if(n->izq!=NULL) mostrarAltura(n->izq);
-  //nivel--;
+  	printf("nodo %d - Nivel %d\n", n->info, nivel);
+  	if(n->izq!=NULL) mostrarAltura(n->izq);
+  	//nivel--;
 	if(altura < nivel) altura = nivel;
 	//nivel++;
 	if(n->der!=NULL) mostrarAltura(n->der);
